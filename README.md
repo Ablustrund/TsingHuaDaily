@@ -1,4 +1,4 @@
-# 平安复旦自动打卡
+# 平安清华自动打卡
 
 使用GitHub Actions实现全自动打卡。
 
@@ -12,7 +12,7 @@
 4. 开启 Workflow  
    在 Actions 页面：
    - 开启 Workflows
-   - 选择 `Fudan Daily` workflow, enable workflow
+   - 选择 `TsingHua Daily` workflow, enable workflow
 
 ## 说明
 - 打卡时使用前一日地理位置信息。
