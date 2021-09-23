@@ -1,8 +1,8 @@
-name: TsingHua Daily
+name: Fudan Daily
 
 on:
   schedule:
-    - cron: '22 04 * * *'
+    - cron: '00 03 * * *'
   workflow_dispatch:
 
 jobs:
