@@ -1,4 +1,4 @@
-name: Fudan Daily
+name: TsingHua Daily
 
 on:
   schedule:
@@ -19,7 +19,7 @@ jobs:
       - name: Prepare environment
         run: pip install beautifulsoup4 lxml requests
       - name: Run app
-        run: python fudanDaily.py
+        run: python TsingHuaDaily.py
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
