@@ -2,7 +2,13 @@ name: TsingHua Daily
 
 on:
   schedule:
-    - cron: '22 04 * * *'
+    - cron: '40 03 * * 0'
+    - cron: '23 02 * * 1'
+    - cron: '54 01 * * 2'
+    - cron: '23 02 * * 3'
+    - cron: '12 03 * * 4'
+    - cron: '16 04 * * 5'
+    - cron: '52 03 * * 6'
   workflow_dispatch:
 
 jobs:
